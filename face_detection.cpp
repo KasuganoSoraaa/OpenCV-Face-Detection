@@ -34,7 +34,7 @@ int main()
 			Point center(faces[i].x + faces[i].width*0.5, faces[i].y + faces[i].height*0.5);
 			ellipse(face, center, Size(faces[i].width*0.5, faces[i].height*0.5), 0, 0, 360, Scalar(0, 233, 0), 2, 7, 0);
 		}
-		imshow("人脸识别", face);
+		imshow("人脸检测", face);
 		waitKey(10);
 	}
 }
